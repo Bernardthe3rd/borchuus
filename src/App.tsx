@@ -1,19 +1,27 @@
 import './App.css'
 import bannerHome from "./assets/nw_banner_borchuus.jpg"
+import {Route, Routes} from "react-router-dom";
 
 function App() {
 
 
   return (
     <>
-      <ul className="container">
-        <li>Home</li>
-        <li>Ruimtes</li>
-        <li>Activiteiten</li>
-        <li>Verenigingen</li>
-        <li>Borchuus voor bedrijven</li>
-        <li>Contact</li>
-      </ul>
+        <Routes>
+            <Route path={"/"} element={"<Home/>"}/>
+            <Route path={"*"} element={"<NotFound />"}/>
+        </Routes>
+
+      <nav className="container">
+        <ul className="nav__big">
+          <li>Home</li>
+          <li>Ruimtes</li>
+          <li>Activiteiten</li>
+          <li>Verenigingen</li>
+          <li>Borchuus voor bedrijven</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
 
       <span className="img-wrapper">
         <img src={bannerHome} alt="banner borchuus"/>
@@ -38,6 +46,7 @@ function App() {
           </p>
         </div>
       </article>
+
       <article className="container">
         <h1>MET ELKAAR, VOOR ELKAAR</h1>
       </article>
@@ -45,7 +54,6 @@ function App() {
       <footer className="container">
         <p>© 2024 Kulturhus Borchuus Varsseveld - Alle rechten voorbehouden - Disclaimer - Privacy verklaring - webdesign: Web & Print</p>
       </footer>
-
     </>
   )
 }
