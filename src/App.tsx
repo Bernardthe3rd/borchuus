@@ -7,22 +7,14 @@ import Verenigingen from "./pages/Verenigingen.tsx";
 import Bedrijven from "./pages/Bedrijven.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import Navbar from "./components/navbar/Navbar.tsx";
 
 function App() {
 
 
   return (
     <>
-      <nav className="container">
-        <ul className="nav__big">
-            <li>Home</li>
-            <li>Ruimtes</li>
-            <li>Activiteiten</li>
-            <li>Verenigingen</li>
-            <li>Borchuus voor bedrijven</li>
-            <li>Contact</li>
-        </ul>
-      </nav>
+      <Navbar />
       <Routes>
           <Route path={"/"} element={<Home/>}/>
           <Route path={"/ruimtes"} element={<Ruimtes/>}/>
