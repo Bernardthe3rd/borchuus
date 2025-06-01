@@ -3,7 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import Home from "./pages/home/Home.tsx";
 import Activiteiten from "./pages/activiteiten/Activiteiten.tsx";
 import Ruimtes from "./pages/Ruimtes.tsx";
-import Verenigingen from "./pages/Verenigingen.tsx";
+import Verenigingen from "./pages/verenigingen/Verenigingen.tsx";
 import Bedrijven from "./pages/Bedrijven.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";

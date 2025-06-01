@@ -1,0 +1,18 @@
+.container__div-verenigingen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    padding-block: 5rem;
+}
+
+.list__img-card {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
