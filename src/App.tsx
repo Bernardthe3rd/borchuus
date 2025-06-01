@@ -1,6 +1,7 @@
 import './App.css'
 import bannerHome from "./assets/nw_banner_borchuus.jpg"
 import {Route, Routes} from "react-router-dom";
+import Home from "./pages/Home.tsx";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
         <Routes>
-            <Route path={"/"} element={"<Home/>"}/>
+            <Route path={"/"} element={<Home/>}/>
             <Route path={"*"} element={"<NotFound />"}/>
         </Routes>
 
