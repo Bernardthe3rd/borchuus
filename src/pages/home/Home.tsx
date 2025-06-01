@@ -1,17 +1,16 @@
-import bannerHome from "../assets/nw_banner_borchuus.jpg";
+import bannerHome from "../../assets/nw_banner_borchuus.jpg";
+import "./Home.css";
+import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
-        <main>
+        <main className="container">
             <span className="img-wrapper">
                 <img src={bannerHome} alt="banner borchuus"/>
             </span>
 
-            <article className="container">
-                <div>
-
-                </div>
-                <div>
+            <article className="container__article-top">
+                <div className="article__div-top">
                     <h1>WELKOM BIJ HET BORCHUUS</h1>
                     <p>
                         Het Borchuus ligt midden in het mooie dorp Varsseveld, uitstekend gelegen aan de A18 / N18 en beschikt over ruime parkeergelegenheid in de buurt.
@@ -25,10 +24,14 @@ const Home = () => {
                         Voor activiteiten: <a href="https://borchuus.eventgoose.com/" target="_blank">KAARTEN TE KOOP DOOR HIER TE KLIKKEN</a>
                     </p>
                 </div>
+                <div className="article__div-bottom">
+                    <h3>Wilt u meer weten over onze mogelijkheden?</h3>
+                    <p>Kijk dan op onze <Link to="/contact">contact</Link> pagina voor onze gegevens!</p>
+                </div>
             </article>
 
-            <article className="container">
-                <h1>MET ELKAAR, VOOR ELKAAR</h1>
+            <article className="container__article-bottom">
+                <h1>"MET ELKAAR, VOOR ELKAAR"</h1>
             </article>
         </main>
     );

@@ -31,6 +31,16 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--accent-clr);
+}
+
+
 /*///////////////Typography/////////////////*/
 h1 {
   font-family: var(--font-secondary);
@@ -43,7 +53,6 @@ h1 {
 
 h2 {
   font-family: var(--font-secondary);
-  color: var(--tekst-clr);
   font-weight: 300;
   font-style: normal;
   font-size: 48px;
@@ -52,7 +61,6 @@ h2 {
 
 h3 {
   font-family: var(--font-secondary);
-  color: var(--tekst-clr);
   font-weight: 200;
   font-style: normal;
   font-size: 36px;
@@ -61,7 +69,6 @@ h3 {
 
 h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--tekst-clr);
   font-weight: 100;
   font-style: italic;
   font-size: 24px;
