@@ -1,6 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --background-clr-first: #EBF2FA;
+  --background-clr-secondary: #679436;
+  --background-clr-third: #427AA1;
+  --accent-clr: #A5BE00;
+  --tekst-clr: #05668D;
+  --white: #FFFFFF;
+  --font-first: "Faustina", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-first);
+  font-weight: 300;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+  background-color: whitesmoke;
+}
+
+ul {
+  list-style: none;
+}
+
+/*///////////////Typography/////////////////*/
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--tekst-clr);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 0.9em;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  color: var(--tekst-clr);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  color: var(--tekst-clr);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.2em;
+}
+
+h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--tekst-clr);
+  font-weight: 100;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.2em;
+}
