@@ -1,0 +1,14 @@
+.navbarlink-default {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    border: 2px solid black;
+}
+
+.navbarlink-active {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: var(--accent-clr);
+    border: 2px solid black;
+}

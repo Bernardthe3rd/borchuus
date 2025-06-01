@@ -1,0 +1,5 @@
+
+.click-link:hover {
+    color: var(--accent-clr);
+    cursor: pointer;
+}

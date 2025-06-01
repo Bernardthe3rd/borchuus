@@ -1,0 +1,8 @@
+.nav__big {
+    height: 150px;
+    background-color: var(--background-clr-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
