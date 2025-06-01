@@ -1,0 +1,7 @@
+.article-card {
+    border: 1px dashed red;
+    border-radius: 10px;
+    background-color: var(--background-clr-third);
+    max-width: 1200px;
+    padding: 2rem;
+}

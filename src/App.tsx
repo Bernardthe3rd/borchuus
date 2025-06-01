@@ -1,7 +1,7 @@
 import './App.css'
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/home/Home.tsx";
-import Activiteiten from "./pages/Activiteiten.tsx";
+import Activiteiten from "./pages/activiteiten/Activiteiten.tsx";
 import Ruimtes from "./pages/Ruimtes.tsx";
 import Verenigingen from "./pages/Verenigingen.tsx";
 import Bedrijven from "./pages/Bedrijven.tsx";
