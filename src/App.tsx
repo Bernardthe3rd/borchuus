@@ -5,7 +5,7 @@ import Activiteiten from "./pages/activiteiten/Activiteiten.tsx";
 import Ruimtes from "./pages/Ruimtes.tsx";
 import Verenigingen from "./pages/verenigingen/Verenigingen.tsx";
 import Bedrijven from "./pages/Bedrijven.tsx";
-import Contact from "./pages/Contact.tsx";
+import Contact from "./pages/contact/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Navbar from "./components/navbar/Navbar.tsx";
 
