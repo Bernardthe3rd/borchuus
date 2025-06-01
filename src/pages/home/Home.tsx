@@ -1,6 +1,6 @@
 import bannerHome from "../../assets/nw_banner_borchuus.jpg";
 import "./Home.css";
-import {Link} from "react-router-dom";
+import ClickLink from "../../components/click-link/ClickLink.tsx";
 
 const Home = () => {
     return (
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
                 <div className="article__div-bottom">
                     <h3>Wilt u meer weten over onze mogelijkheden?</h3>
-                    <p>Kijk dan op onze <Link to="/contact">contact</Link> pagina voor onze gegevens!</p>
+                    <p>Kijk dan op onze <ClickLink path="/contact" text="contact"/> pagina voor onze gegevens!</p>
                 </div>
             </article>
 
